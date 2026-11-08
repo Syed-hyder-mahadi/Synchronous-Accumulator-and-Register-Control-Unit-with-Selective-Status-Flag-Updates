@@ -289,7 +289,7 @@ This indicates positive signed overflow.
 ---
 
 ## 7. Working Principle of the Design
-## Block Diagram
+
 
 ![Block diagram of the accumulator control unit](block_diagram.svg)
 
@@ -474,6 +474,17 @@ You can simulate the project using a Verilog simulator such as:
 - ModelSim / QuestaSim
 - Icarus Verilog
 - Xilinx Vivado Simulator
+
+### Results
+![Adder waveform](adder.png)
+
+*Figure 2: Full adder.*
+![MUX waveform](MUX.png)
+*Figure 3: MUX .*
+![AND operation waveform](AND.png)
+*Figure 4: Bitwise AND operation.*
+![FSM operation](FSM.png)
+*Figure 5: FSM.*
 
 ### Using Icarus Verilog
 
