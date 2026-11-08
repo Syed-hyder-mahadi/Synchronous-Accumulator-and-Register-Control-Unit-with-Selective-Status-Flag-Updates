@@ -289,7 +289,11 @@ This indicates positive signed overflow.
 ---
 
 ## 7. Working Principle of the Design
+## Block Diagram
 
+![Block diagram of the accumulator control unit](docs/block_diagram.png)
+
+*Figure 1: Block diagram of accumulator_control.*
 The design is divided into two main procedural blocks.
 
 ### 7.1 Combinational Logic
