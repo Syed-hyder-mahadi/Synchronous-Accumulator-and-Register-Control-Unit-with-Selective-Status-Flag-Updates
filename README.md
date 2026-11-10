@@ -6,6 +6,10 @@ Synchronous Accumulator and Register Control Unit with Selective Status Flag Upd
 
 This project implements an **8-bit Accumulator and Register Control Unit** using Verilog Hardware Description Language (HDL).
 
+![Block diagram of the accumulator control unit](block_diagram.svg)
+
+*Figure 1: Block diagram of accumulator_control.*
+
 An accumulator is a special-purpose register used in digital systems and processors to store intermediate results of arithmetic and logical operations. It plays an important role in the Arithmetic Logic Unit (ALU) of a processor.
 
 The designed circuit performs four basic operations:
@@ -291,9 +295,7 @@ This indicates positive signed overflow.
 ## 7. Working Principle of the Design
 
 
-![Block diagram of the accumulator control unit](block_diagram.svg)
 
-*Figure 1: Block diagram of accumulator_control.*
 The design is divided into two main procedural blocks.
 
 ### 7.1 Combinational Logic
